@@ -1,13 +1,55 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30804.86
-MinimumVisualStudioVersion = 10.0.40219.1
-Global
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {817DC3BA-0BA4-4B07-8D2B-1FB1991BD2E3}
-	EndGlobalSection
-EndGlobal
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>SassySigns Greenville</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="nav1">
+            <ul>
+                <li> goober </li>
+            </ul>
+        </div>
+        <div class="socials1">
+        </div>
+    </div>
+    <h1> Home </h1>
+    <div class="composite">
+    </div>
+    <div class="main">
+        <h2> What is Sassy Signs? <h2>
+        <p1> 
+
+        </p1>
+        <div class="columns">
+            <div class="col1">
+                <p2> 
+                
+                </p2>
+            </div>
+            <div class="col2">
+                <p3> 
+                
+                </p3>
+            </div>
+            <div class="col3">
+                <p4> 
+                
+                </p4>
+            </div>
+        </div>
+        <h3> Our Signs/Our Process </h3>
+        <p5> 
+
+        </p5>
+    </div>
+    <footer>
+        <div class="socials2">
+        </div>
+        <div class="nav2">
+        </div>
+    </footer>
+</body>
+</html>
