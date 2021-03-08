@@ -4,8 +4,24 @@ and then we can add the differentiation*/
 
 
 body{
+}
+
+.banner{
+    shape-image-threshold: 1444pt;
+    border-image-width: auto;
+    background-color: #477903;
+        /*the lighter option can be code background-color:#629d06; so we can test it*/
+    background-size: 100%;
 
 
+}
+
+.banner_image{
+    width: 1444pt;
+}
+
+.composite{
+    border-image-width: auto;
 }
 
 
@@ -14,6 +30,9 @@ h1{
     font-family: 'lobster Two', cursive;
 }
 
+.list-inline{
+    list-style: horizontal;
+}
 h3{
     font-size: 36pt;
     font-family: 'Lobster Two', cursive;
