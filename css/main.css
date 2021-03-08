@@ -1,3 +1,21 @@
-﻿body
-{
+﻿/* so i believe that this css will affect all the systems and i kinda 
+understand the different screen size thing but for now im just going to do regular old css
+and then we can add the differentiation*/
+
+
+body{
+
+
+}
+
+
+h1{
+    font-size: 72pt;
+    font-family: 'lobster Two', cursive;
+}
+
+h3{
+    font-size: 36pt;
+    font-family: 'Lobster Two', cursive;
+
 }
