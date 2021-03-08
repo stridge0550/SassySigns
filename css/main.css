@@ -3,22 +3,34 @@ understand the different screen size thing but for now im just going to do regul
 and then we can add the differentiation*/
 
 
+@media(Min width:750px) and (max width:1444px){
+   .banner_image{
+       width: 100%;
+   } 
+}
+
 body{
+
+    background-image:url('../images/confetti_PNG87007\ 1.png');
+    background-repeat:no-repeat;
 }
 
 .banner{
-    shape-image-threshold: 1444pt;
+    
     border-image-width: auto;
+    margin: 0%;
     background-color: #477903;
+    width: 100%;
+    height: 275px;
+    
         /*the lighter option can be code background-color:#629d06; so we can test it*/
-    background-size: 100%;
+ 
 
 
 }
 
-.banner_image{
-    width: 1444pt;
-}
+
+
 
 .composite{
     border-image-width: auto;
@@ -26,15 +38,95 @@ body{
 
 
 h1{
-    font-size: 72pt;
+    font-size: 48pt;
     font-family: 'lobster Two', cursive;
+    text-align:center;
 }
 
-.list-inline{
-    list-style: horizontal;
+p{
+
 }
+
+nav{
+    background-color:  #477903;
+}
+
+.pagenav{
+    display: inline;
+    font-family: 'lobster two', cursive;
+    font-size: 32pt;
+    color: white;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.push{
+
+    margin-right: auto;
+}
+#horizontal-list{
+    float:left;
+    
+}
+
+#horizontal-list-right{
+    float:right;
+    display: inline;
+    
+}
+
+li{
+    
+    display: inline;
+}
+
+
+
 h3{
     font-size: 36pt;
     font-family: 'Lobster Two', cursive;
 
 }
+
+
+.whatis{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 24px;
+}
+
+.whatishead{
+ float:left;
+
+}
+
+.whatisbody{
+    float: right;
+    width: 60%;
+    vertical-align: baseline;
+}
+
+.columns{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 33%;
+    
+    
+
+}
+
+.our{
+    column-count: 2;
+    
+}
+
