@@ -82,12 +82,21 @@ li{
 
 
 
-h3{
-    font-size: 36pt;
-    font-family: 'Lobster Two', cursive;
+.howit{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 24px;
+}
+
+.howithead{
+    float: left;
 
 }
 
+.howitbody{
+    float: right;
+}
 
 .whatis{
     display: flex;
@@ -130,3 +139,20 @@ h3{
     
 }
 
+
+
+
+/* oh god its the catalogue css*/
+
+iframe{
+    width: 1300px;
+    height: 760px;
+}
+
+
+
+
+img{
+    
+    width: 250px;
+}
