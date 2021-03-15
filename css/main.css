@@ -25,8 +25,6 @@ body{
     
         /*the lighter option can be code background-color:#629d06; so we can test it*/
  
-
-
 }
 
 
@@ -77,7 +75,6 @@ nav{
 }
 
 li{
-    
     display: inline;
 }
 
@@ -100,6 +97,17 @@ li{
    
     
 }
+
+.who{
+    float:right;
+
+}
+
+.owners{
+    float:left;
+
+}
+
 
 .whatis{
     display: flex;
