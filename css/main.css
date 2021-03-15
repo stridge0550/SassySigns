@@ -3,6 +3,8 @@ understand the different screen size thing but for now im just going to do regul
 and then we can add the differentiation*/
 
 
+
+
 @media(Min width:750px) and (max width:1444px){
    .banner_image{
        width: 100%;
@@ -94,6 +96,9 @@ li{
 
 .howitbody{    
     float: right;
+    width: 70%;
+    padding-left: 24px;
+    margin-right: 15%;
    
     
 }
@@ -125,6 +130,8 @@ li{
     float: right;
     width: 60%;
     vertical-align: baseline;
+    margin-left: 8%;
+    padding-right: 36px;
 }
 
 .columns{
@@ -132,6 +139,7 @@ li{
     height: 100%;
     display: flex;
     flex-direction: row;
+    padding: 24px;
 
 }
 
@@ -139,15 +147,34 @@ li{
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 33%;
+    width: 30%;
+    padding: 36px;
+    
+    
+    
     
     
 
 }
 
 .our{
-    column-count: 2;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 24px;
     
+}
+
+.ourhead{
+    
+    float: left;
+}
+.ourbody{
+    
+    float: right;
+    width: 100%;
+    margin-right: 15%;
+    margin-left: 8%;
 }
 
 
@@ -160,6 +187,7 @@ li{
     padding-right: 24px;
     padding-bottom: 24px;
     margin-right: 71%;
+    margin-left: 24px;
     background-color: #477903;
 }
 
@@ -178,19 +206,89 @@ li{
     display: inline;
     float: right;
     width: 50%;
+    margin-right: 15%;
+}
+.whole{
+    display: inline;
+    padding: 36px;
+}
+
+.owners{
+    display: inline-flex;
+    width: 250px;
+    
+   
+    
+    
+}
+.aboutus{
+  display: inline-flex;
+  align-items: center;
+  
+   
+}
+
+
+.who{
+    
+    float: right;
+    margin-left: 60%;
+    
+   
+    
+}
+
+.whotext{
+    display: flex;
+    float: right;
+   
+    
+   
+}
+
+
+.customer{
+    display: flex;
+    padding: 24px;
+    
+}
+.customerhead{
+    
+    padding-top: 1000px;
+    padding: 24px;
+
+}
+.customercol{
+    display: inline;
+    align-items: center;
+    float: center;
+   
+    margin-left: 15%;
+}
+.customerbody{
+    display: flex;
+    float: center;
+    width: 70%;
+    margin-left: 15%;    
 }
 
 .privacy{
     display: inline-flex;
+    align-items: center;
+    width: 100%;
+    padding: 24px;
 }
 
 .privacyhead{
-    display: ;
+   
     float: left;
+    padding: 24px;
 }
 
 .privacybody{
     float: right;
+    width: 60%;
+    padding: 24px;
 }
 
 
@@ -206,11 +304,14 @@ li{
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 24px;
+    margin-left: 24px;
     margin-right: 71%;
     background-color: #477903;
     
 }
-
+.contactusform{
+    padding: 24px;
+}
 .container{
     padding: 36px;
 }
@@ -306,3 +407,69 @@ iframe{
 .numbers{
     background-color: white;
 }
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen (max-width:414px){
+    .composite{
+        visibility: hidden;
+     
+    }
+    
+    
+    h1{
+     font-size: 36pt;
+    }
+
+
+
+
+    .whatis{
+        display: flex;
+        position: center;
+        width: 100%;
+        padding: 100px;
+    }
+    
+    .whatishead{
+     float:center;
+    
+    }
+    
+    .whatisbody{
+        float: center;
+        width: 60%;
+        vertical-align: baseline;
+    }
+    
+    .columns{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .col{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 33%;
+        
+        
+    
+    }
+    
+    .our{
+        column-count: 2;
+        
+    }
+
