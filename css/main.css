@@ -53,6 +53,7 @@ nav{
 
 .pagenav{
     display: inline;
+
     font-family: 'lobster two', cursive;
     font-size: 32pt;
     color: white;
@@ -91,11 +92,13 @@ li{
 
 .howithead{
     float: left;
-
+    
 }
 
-.howitbody{
+.howitbody{    
     float: right;
+   
+    
 }
 
 .whatis{
@@ -140,19 +143,137 @@ li{
 }
 
 
-
-
-/* oh god its the catalogue css*/
-
-iframe{
-    width: 1300px;
-    height: 760px;
+.termsandcondhead{
+    font-family: 'Lobster two', cursive;
+    font-size: 32px;
+}
+.terms{
+    display: flex;
+    
+    padding: 8px;
 }
 
 
 
+.termsbody{
+    display: inline;
+    float: right;
+}
 
-img{
+.contactushead{
+    font-family: 'Lobster two', cursive;
+    font-size: 32px;
+}
+
+.container{
+    padding: 36px;
+}
+
+
+/* oh god its the catalogue css*/
+.thecontainer{
+    display:inline-flex;
+    size: 100%;
+    width: 100%;
+    align-items: right;
+    background-color: white;
+
+}
+
+.thecataloguecontainer{
+    float: right;
+    width: 100%;
+}
+.myBTNContainer{
+    display: block; float: left;
+    font-size: 36px;
+    background-color: white;
+}
+
+#btn{
+    float: left;
+    display: block;
+    background-color: white;
+}
+
+#verticle-list{
     
-    width: 250px;
+    display: block;
+    display: list-item; 
+    font-family: 'lobster two', cursive;
+    float: left;
+    font-size: 36px;
+
+}
+
+li a{
+
+    display: block;
+}
+
+iframe{
+    display: flex; float: right;
+    width: 80%;
+    height: 760px;
+    padding: 5%;
+    background-color: white;
+}
+
+.footer{
+
+    padding: 0%;
+    background-color:  #477903 ;
+}
+
+
+
+#horizontal-list-bottom{
+    float:left;
+    display: center;
+    
+}
+
+#horizontal-list-right-bottom{
+    float:right;
+    display: inline;
+    
+}
+
+.terms{
+    display:inline-flex;
+    
+    
+}
+
+.termshead{
+    float: left;
+    font-family: 'lobster', cursive;
+    font-size: 36px;
+}
+
+.termsbody{
+    display: inline;
+    float: right;
+    size: 60%;
+}
+
+
+
+.babies{
+    background-color: white;
+}
+.birthday{
+    background-color: white;
+}
+.holidays{
+    background-color: white;
+}
+.icons{
+    background-color: white;
+}
+.misc{
+    background-color: white;
+}
+.numbers{
+    background-color: white;
 }

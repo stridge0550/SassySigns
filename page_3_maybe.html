@@ -8,6 +8,52 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
 
+        <style>
+
+            .footer {
+              display: flex;
+              position: bottom;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              background-color:#477903;
+              color: white;
+              text-align: left;
+            }
+
+            * {box-sizing: border-box;}
+      
+            input[type=text], select, textarea {
+              width: 100%;
+              padding: 12px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+              margin-top: 6px;
+              margin-bottom: 16px;
+              resize: vertical;
+            }
+
+            input[type=submit] {
+              background-color: #4CAF50;
+              color: white;
+              padding: 12px 20px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+            }
+
+            input[type=submit]:hover {
+              background-color: #45a049;
+            }
+
+            .container {
+              border-radius: 5px;
+              background-color: #ffe6b0;
+              padding: 20px;
+            }
+    </style>
+
 </head>
 
 
@@ -19,7 +65,7 @@
 <div class="banner">
   <div class="banner_image">
       <img src="images/SSBanner.png" alt="grass banner and title" style="width: 100%; height: 100%;">
-</div>
+    </div>
   
   
   
@@ -56,8 +102,8 @@
     <div class="howithead">
       <img src="images/SSHeader-03.png" alt="How It Works" style="height: 144px; width: 432px;">
     </div>
-    <div class="howitbody"></div>
-  <p> Your first sign is $65 and comes with a vinyl personalization of the event. 
+    <div class="howitbody">
+    <p> Your first sign is $65 and comes with a vinyl personalization of the event. 
       Each additional sign is $10. 
       For $15 we can add a 24” square with custom wording.
       These signs stay up for 48 hours.
@@ -72,58 +118,139 @@
       Browse our catalogue and decide which signs you’ll choose, then contact us 
       and we’ll place your order! 
       Her we can also</p>
+     
+ 
+    </div>
+</div>
+
+
+<div class="thecontainer">
+    <div id="myBtnContainer">
+      <ul id="verticle-list">
+      <li><a href="cataloguepage.html" class="btn" target="cat" > Show all</a></li>
+      <li><a href="birthday.html" class="btn" target="cat"> Birthday</a></li>
+      <li><a href="babies.html"  class="btn" target="cat"> Babies</a></li>
+      <li><a href="holidays.html" class="btn" target="cat"> Holidays</a></li>
+      <li><a href="numbers.html" class="btn" target="cat"> Numbers</a></li>
+      <li><a href="icons.html" class="btn" target="cat"> Icons</a></li>
+      <li><a href="misc.html" class="btn" target="cat"> Misc.</a></li>
+      </ul>
     </div>
 
+  
+
+  <div class="thecataloguecontainer">
+
+  <iframe src="cataloguepage.html" name="cat"></iframe>
+
+  </div>
+      
+  
+</div>
+
+
+<div class="bodyprt2">
+<div class="terms">
+  <div class="termsandcondhead"> Terms and Conditions</div>
+
+  <div class="termsbody">
+    <p>Are there any specific rules or stipulations that you think people need to know, such as the delivery 
+      distance, or what happens if there are scheduling difficulties? 
+      <br></br>
+      talk about how you only deliver within a specific area or there are extra fees. You could also talk 
+      about how if you want something or have a situation that isn’t covered on this page they need to 
+      contact you if they need to work out the details</p>
+      <br></br><br></br>
   </div>
 
 
+</div>
+
+<div class="contactus">
+  <div class="contactushead">Contact Us to Place an Order</div>
+
+  <div class="contactusform">
+
+
+    
+  </div>
+</div>
+
+<div class="container">
+  <form action="mailto:itsanemail@email.com">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email..">
+
+    <label for="event">Event</label>
+    <select id="event" name="event">
+      <option value="birthday">Birthday</option>
+      <option value="baby">Baby</option>
+      <option value="celebration">Celebration</option>
+      <option value="other">Other</option>
+    </select>
+
+    <label for="message">Message/Order</label>
+    <textarea id="message" name="message" placeholder="Your order.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <br></br>
+</div>
 
 
 
+<div class="footer">
+  
+<nav>
+
+    <ul id="horizontal-list">
+
+        <li><a href="" class="pagenav">Home</a></li>
+        <li><a href="" class="pagenav">About Us</a></li>
+        <li><a href="" class="pagenav">Catalogue</a></li>
+        <li><a href="" class="pagenav">FAQ</a></li>
+      
+    </ul>
+    <ul id="horizontal-list-right">    
+        
+        <li><a href="https://www.instagram.com/sassysignsgreenville/" class="pagenav" target="_blank">
+            <img src="images/SSIcon-01.png" alt="instagram" style="width: 50px; height: 50px;"></a></li>
+        <li><a href="/*i dont have their email hahaha*/" class="pagenav" target="_blank">
+            <img src="images/SSIcon-02.png" alt="email" style="width: 50px; height: 50px;"></a></li>
+        <li><a href="https://www.facebook.com/sassysignsgreenville/" class="pagenav" target="_blank">
+            <img src="images/SSIcon-03.png" alt="facebook" style="width: 50px; height: 50px;"></a></li>
+       
+        </li>
+    </ul>
 
 
 
     
-
-
-
-
-
-
-
-
-
-
-
-<div id="myBtnContainer">
-    <A href="cataloguepage.html" class="btn" target="cat" > Show all</A>
-    <A href="birthday.html" class="btn" target="cat"> Birthday</A>
-    <A href="babies.html"  class="btn" target="cat"> Babies</A>
-    <A href="holidays.html" class="btn" target="cat"> Holidays</A>
-    <A href="numbers.html" class="btn" target="cat"> Numbers</A>
-    <A href="icons.html" class="btn" target="cat"> Icons</A>
-    <A href="misc.html" class="btn" target="cat"> Misc.</A>
   </div>
-
-
-
-  <iframe src="cataloguepage.html" name="cat"></iframe>
-
-
-      
-     
-  
+  </nav>
+</div>
 
 
 
 
 
 
+</div>
 
 
 
-<script src="my-catalogue.js"></script>
 
 </body>
+
+
+
+
+
+
+
 
 </html>
