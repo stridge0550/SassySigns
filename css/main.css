@@ -241,6 +241,7 @@ li{
 .whotext{
     display: flex;
     float: right;
+    
    
     
    
@@ -256,6 +257,7 @@ li{
     
     padding-top: 1000px;
     padding: 24px;
+    visibility: hidden;
 
 }
 .customercol{
