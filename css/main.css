@@ -154,23 +154,61 @@ li{
 .termsandcondhead{
     font-family: 'Lobster two', cursive;
     font-size: 32px;
-}
-.terms{
-    display: flex;
-    
-    padding: 8px;
+    color: white;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    margin-right: 71%;
+    background-color: #477903;
 }
 
+
+.terms{
+    display:inline-flex;
+    display: contents;
+    width: 70%;
+    padding-top: 10%;
+    
+    
+}
 
 
 .termsbody{
     display: inline;
     float: right;
+    width: 50%;
 }
+
+.privacy{
+    display: inline-flex;
+}
+
+.privacyhead{
+    display: ;
+    float: left;
+}
+
+.privacybody{
+    float: right;
+}
+
+
+
+
 
 .contactushead{
     font-family: 'Lobster two', cursive;
     font-size: 32px;
+    padding-top: 10%;
+    color: white;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
+    margin-right: 71%;
+    background-color: #477903;
+    
 }
 
 .container{
@@ -247,23 +285,6 @@ iframe{
     
 }
 
-.terms{
-    display:inline-flex;
-    
-    
-}
-
-.termshead{
-    float: left;
-    font-family: 'lobster', cursive;
-    font-size: 36px;
-}
-
-.termsbody{
-    display: inline;
-    float: right;
-    size: 60%;
-}
 
 
 
