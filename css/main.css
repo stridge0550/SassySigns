@@ -104,12 +104,13 @@ li{
 }
 
 .who{
-    float:right;
+    flex-direction:column;
+    width:50%;
 
 }
 
 .owners{
-    float:left;
+  margin-right:40px;
 
 }
 
@@ -209,30 +210,19 @@ li{
     margin-right: 15%;
 }
 .whole{
-    display: 
+    display:flex;
+    flex-direction:row;
     padding: 36px;
 }
 
-.owners{
-    display: inline-flex;
-    width: 250px;
-    
    
-    
-    
-}
+
 .aboutus{
   display: inline-flex;
   align-items: center;
   
    
 }
-
-
-.who{
-    
-    float: right;
-    margin-left: 60%;
     
    
     
