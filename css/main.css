@@ -3,18 +3,8 @@ understand the different screen size thing but for now im just going to do regul
 and then we can add the differentiation*/
 
 
-
-
-@media(Min width:750px) and (max width:1444px){
-   .banner_image{
-       width: 100%;
-   } 
-}
-
 body{
-
-    background-image:url('../images/confetti_PNG87007\ 1.png');
-    background-repeat:no-repeat;
+    margin:0;
 }
 
 .banner{
@@ -24,12 +14,40 @@ body{
     background-color: #477903;
     width: 100%;
     height: 275px;
-    
+    padding-bottom: 85px;
         /*the lighter option can be code background-color:#629d06; so we can test it*/
  
 }
 
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
+.column-title{
+    color: #183149;
+    font-size: 30px;
+    font-family: 'lobster Two', cursive;
+
+}
+
+.title-divider{
+    border-top: 1px solid #183149;
+    color:#183149;
+    width: 60%;
+}
+
+.page-text{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+}
+
+.page-text-small{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+}
 
 
 .composite{
@@ -37,18 +55,27 @@ body{
 }
 
 
-h1{
-    font-size: 48pt;
-    font-family: 'lobster Two', cursive;
-    text-align:center;
+.banner-div{
+    background-image:url('../images/confetti_PNG87007\ 1.png');
+    background-repeat:repeat;
 }
 
-p{
-
+.banner-text{
+    margin-left: 40px;
+    color: #183149;
+    font-size: 42pt;
+    font-family: 'lobster Two', cursive;
+    text-align:left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom:10px;
+    
 }
 
 nav{
     background-color:  #477903;
+    text-decoration: none;
 }
 
 .pagenav{
@@ -65,8 +92,8 @@ nav{
 
     margin-right: auto;
 }
-#horizontal-list{
-    float:left;
+.nav-right{
+    float:right;
     
 }
 
@@ -99,6 +126,7 @@ li{
     width: 70%;
     padding-left: 24px;
     margin-right: 15%;
+    margin-top: 50px;
    
     
 }
@@ -150,12 +178,6 @@ li{
     text-align: center;
     width: 30%;
     padding: 36px;
-    
-    
-    
-    
-    
-
 }
 
 .our{
@@ -213,6 +235,9 @@ li{
     display:flex;
     flex-direction:row;
     padding: 36px;
+    background-image:url('../images/confetti_PNG87007\ 1.png');
+    background-repeat:repeat;
+    
 }
 
    
@@ -224,17 +249,24 @@ li{
    
 }
     
-   
-    
-}
 
 .whotext{
     display: flex;
-    float: right;
-    
-   
-    
-   
+    float: right;  
+}
+
+.column-20 {
+    float: left;
+    width: 20%;
+    text-align: left;
+    display:block;
+}
+
+.column-80 {
+    float: left;
+    width: 80%;
+    text-align: left;
+    display:block;
 }
 
 
@@ -243,19 +275,14 @@ li{
     padding: 24px;
     
 }
-.customerhead{
-    
-    padding-top: 1000px;
-    padding: 24px;
-    visibility: hidden;
 
+.customerhead{
+    margin: 40px;
+    text-align: center;
 }
+
 .customercol{
     display: inline;
-    align-items: center;
-    float: center;
-   
-    margin-left: 15%;
 }
 .customerbody{
     display: flex;
@@ -314,14 +341,17 @@ li{
     display:inline-flex;
     size: 100%;
     width: 100%;
-    align-items: right;
     background-color: white;
-
+    margin-top: 50px;
 }
 
 .thecataloguecontainer{
-    float: right;
-    width: 100%;
+    padding: 0px;
+    margin:auto;
+}
+iframe{
+    display: block;
+    padding-left: 0px;
 }
 .myBTNContainer{
     display: block; float: left;
@@ -336,18 +366,28 @@ li{
 }
 
 #verticle-list{
-    
+    margin: auto;
     display: block;
     display: list-item; 
     font-family: 'lobster two', cursive;
     float: left;
     font-size: 36px;
+    list-style: none;
 
 }
 
-li a{
+#verticle-list a{
+    color: #183149;
+}
 
+li a{
+    text-decoration: none;
     display: block;
+}
+
+li a:hover{
+    text-decoration: underline;
+
 }
 
 iframe{
@@ -400,17 +440,18 @@ iframe{
     background-color: white;
 }
 
+@media only screen and (max-width:600px){
+    .thecataloguecontainer{
+        margin-left: -50px; 
+        margin-top: -70px;
+    }
 
 }
 
 
 
 
-
-
-
-
-@media only screen (max-width:414px){
+@media only screen and (max-width:550px){
     .composite{
         visibility: hidden;
      
@@ -425,22 +466,66 @@ iframe{
 
 
     .whatis{
-        display: flex;
+        display: block;
         position: center;
         width: 100%;
-        padding: 100px;
+        padding: 0px
     }
     
     .whatishead{
-     float:center;
+     display:block;
     
+    }
+
+    .page-text{
+        font-size: 18px;
+        margin-left: 10px;
     }
     
     .whatisbody{
-        float: center;
-        width: 60%;
-        vertical-align: baseline;
+        display:block;
+        clear:both;
+        width: 100%;
     }
+    .whatistext{
+        font-size: 55px;
+    }
+
+    .owners{
+        display:block;
+        clear:both;
+        width: 100%;
+    }
+
+    .whole{
+        display:block;
+        clear:both;
+        width: 100%;
+    }
+
+    .whobody{
+        display:block;
+        clear:both;
+        width: 100%;
+    }
+
+    .privacybody{
+        display:block;
+        clear:both;
+        width: 100%;
+    }
+    .privacyhead{
+        display:block;
+        clear:both;
+        width: 100%;
+    }
+
+    .privacy{
+        display:block;
+        clear:both;
+        width: 100%;
+    }
+    
     
     .columns{
         width: 100%;
@@ -454,14 +539,37 @@ iframe{
         display: flex;
         flex-direction: column;
         text-align: center;
-        width: 33%;
+        width: 100%;
         
         
     
     }
     
     .our{
-        column-count: 2;
+        display: block;
         
     }
 
+    .ourbody{
+        padding-left: 50px;
+    }
+
+    .column-20{
+        width: 100%;
+        clear:both;
+    }
+    .column-80{
+        padding-left: 50px;
+    }
+
+    .banner-text{
+        font-size: 30px;
+        padding-top: 50px;
+    }
+
+    .howitbody{
+        display:block;
+        clear:both;
+        width: 100%;
+    }
+}
