@@ -421,6 +421,7 @@ iframe{
 
 
 
+
 .babies{
     background-color: white;
 }
@@ -573,3 +574,20 @@ iframe{
         width: 100%;
     }
 }
+
+/* i literally couldnt hide this in the html so i put it here for safekeeping*/
+
+/* <div class="privacy">
+
+    <div class="privacyhead">
+        <img src="images/SSHeader-02.png" alt="privacyheader" style="width: 407px">
+    </div>
+
+    <div class="privacybody">
+    
+    <p class="page-text-small">
+    Do you have some type of privacy policy?  How will you contact them and how will they contact you securely?
+    Because of the nature of this business you’ll need information like addresses these will not be shared with others etc.
+    </p>
+
+</div> */
