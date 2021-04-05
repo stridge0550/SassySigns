@@ -60,6 +60,8 @@ body{
     background-repeat:repeat;
 }
 
+
+
 .banner-text{
     margin-left: 40px;
     color: #183149;
@@ -458,7 +460,13 @@ iframe{
      
     }
     
+   /* .bannercontain{
+        visibility: hidden;
+    }
     
+    .bannerresponsive{
+        visibility: show;
+    } */
     h1{
      font-size: 36pt;
     }
@@ -558,9 +566,14 @@ iframe{
     .column-20{
         width: 100%;
         clear:both;
+        padding-bottom: 25px;
+        padding-right: 15px;
     }
     .column-80{
-        padding-left: 50px;
+        padding-left: 100px;
+        padding-right: 30px;
+        clear: both;
+        
     }
 
     .banner-text{
@@ -572,6 +585,7 @@ iframe{
         display:block;
         clear:both;
         width: 100%;
+        float: right;
     }
 }
 
