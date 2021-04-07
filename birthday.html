@@ -4,7 +4,47 @@
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <head>
     <meta charset="utf-8" />
-  
+  <!--<style>
+      #image1{
+          display: inline;
+    position: relative;
+    padding: 0;
+}
+
+#image2{
+    display: inline;
+    position:relative; 
+    padding:0;
+}
+
+.bimages{
+    display: inline-block;
+    height: auto;
+
+}
+
+#overlay{
+    position: absolute; 
+    bottom: 0;
+    background: rgb(0,0,0);
+    background: rgba(0,0,0, 0.5);
+    color: #f1f1f1;
+    width: fit-content;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#image1:hover #overlay{
+opacity: 1;
+}
+#image2:hover #overlay{
+    opacity: 1;
+}
+
+  </style>-->
 </head>
 
 
@@ -17,17 +57,18 @@
          
         <div class="birthday">
             
-           <img onmouseover="numberin(this)" onmouseout="nonumber(this)"  src="images/Birthdays/image19.jpg" alt="partyhat" width="33%">
+          <!--- <img onmouseover="numberin(this)" onmouseout="nonumber(this)"  src="images/Birthdays/image19.jpg" alt="partyhat" width="33%">
+        -->
            
-           
-           
-           <img src="images/Birthdays/image44.jpg" alt="cupcake" width="33%">
+          <!--- <div id="image1">-->
+           <img src="images/Birthdays/image44.jpg" alt="cupcake" width="33%" >
+          <!--  <div id="overlay"></div> </div>-->
+            
           
-           <!--<img src="images/Birthdays/image57.jpg" alt="happy birthday" width="33%">-->
-           
-           <img src="images/Birthdays/image61.jpg" alt="other cake" width="33%">
-          
-           
+          <!-- <div id="image2">-->
+           <img src="images/Birthdays/image61.jpg" alt="other cake" width="33%" >
+           <!--  <div id="overlay"></div>
+           </div>-->
         
            <img src="images/Birthdays/image69.jpg" alt="nice ballons" width="33%">
           
@@ -41,7 +82,7 @@
         
           
         </div>
-       
+      <!---
       <script>
           function numberin(x){
               x.document.write("1");
@@ -49,7 +90,7 @@
           function nonumber(x){
             
           }
-       </script>
+       </script> -->
        
          
      

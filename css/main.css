@@ -338,6 +338,15 @@ li{
 }
 
 
+/* So this is how I'm adding the hover numbers for the catalogue, 
+there might be an easier way to do this with java but i dont feel 
+comfortable enough to attempt that yet */
+ 
+
+
+
+
+
 /* oh god its the catalogue css*/
 .thecontainer{
     display:inline-flex;
@@ -428,6 +437,7 @@ iframe{
     background-color: white;
 }
 .birthday{
+    display: inline-block;
     background-color: white;
 }
 .holidays{
@@ -442,6 +452,11 @@ iframe{
 .numbers{
     background-color: white;
 }
+
+
+
+
+
 
 @media only screen and (max-width:600px){
     .thecataloguecontainer{
